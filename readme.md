@@ -48,13 +48,24 @@ php artisan make:migration create_logs_table
 В итоге файл должен приобрести такой вид:
 
 ---
-![поля логгиорвания](storage/app/private/img/2_1.png "поля логгиорвания")
+![поля логгирования](storage/app/private/img/2_1.png "поля логгирования")
+
+---
+![поля логгирования](storage/app/private/img/2_2.png "поля логгирования")
 
 ---
 
 ### 3. Миграция создана, параметры описаны. Теперь создадим таблицу.
 
 Напоминаем, что таблица создаётся также через artisan c параметром migrate php artisan migrate.
+
+---
+![миграция](storage/app/private/img/3_0.png "миграция")
+![миграция](storage/app/private/img/3_1.png "миграция")
+![миграция](storage/app/private/img/3_2.png "миграция")
+
+---
+
 
 ### 4. База данных подготовлена, теперь нужно создать звено (middleware) для обработки HTTP-запросов. Напоминаем, что звенья создаются при помощи команды php artisan make:middleware название модели.
 
