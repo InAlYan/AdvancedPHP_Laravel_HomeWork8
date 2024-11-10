@@ -23,6 +23,9 @@ php artisan make:model Log
 ![model log](storage/app/private/img/1_0.png "model log")
 
 ---
+![model log](storage/app/private/img/1_1.png "model log")
+
+---
 
 ### 2. Теперь опишем миграцию для создания нашей таблицы логов:
 
