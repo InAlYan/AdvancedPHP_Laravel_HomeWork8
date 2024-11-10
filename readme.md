@@ -77,13 +77,24 @@ php artisan make:middleware DataLogger
 
 ---
 ![middleware](storage/app/private/img/4_0.png "middleware")
+![middleware](storage/app/private/img/4_1.png "middleware")
+
+---
+![middleware](storage/app/private/img/4_3.png "middleware")
+![middleware](storage/app/private/img/4_4.png "middleware")
 
 ---
 
 Также нужно завершить создание middleware DataLogger, зарегистрировать его в ./app/Http/Kernel.php.
 
 ---
-![middleware](storage/app/private/img/4_1.png "middleware")
+![middleware](storage/app/private/img/4_2.png "middleware")
+
+---
+![middleware](storage/app/private/img/4_5.png "middleware")
+![middleware](storage/app/private/img/4_6.png "middleware")
+![middleware](storage/app/private/img/4_7.png "middleware")
+![middleware](storage/app/private/img/4_8.png "middleware")
 
 ---
 
@@ -94,14 +105,25 @@ php artisan make:middleware DataLogger
 ![route](storage/app/private/img/5_0.png "route")
 
 ---
+![вывод логов в таблицу](storage/app/private/img/5_1.png "вывод логов в таблицу")
+
+---
+
 
 Также для этого эндпоинта необходимо создать blade-шаблон: ./resource/view/logs.blade.php
 
 В нём создать запрос к базе SQL и вывод логов в таблицу.
 
 ---
-![вывод логов в таблицу](storage/app/private/img/5_1.png "вывод логов в таблицу")
+![вывод логов в таблицу](storage/app/private/img/5_2.png "вывод логов в таблицу")
+
+---
+![вывод логов в таблицу](storage/app/private/img/5_3.png "вывод логов в таблицу")
 
 ---
 
 Запускаем приложение, при открытии вашего приложения http://localhost:8000/logs должна открываться таблица с логами обращения к сайту.
+---
+![вывод логов в таблицу](storage/app/private/img/5_4.png "вывод логов в таблицу")
+
+---
